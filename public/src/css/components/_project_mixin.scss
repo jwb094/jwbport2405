@@ -1,0 +1,10 @@
+    //template
+    @mixin corner-icon($name, $top-or-bottom, $lefåt-or-right) {
+    .icon-#{} {
+        background-image: url("/icons/#{}.svg");
+        position: absolute;
+        #{-or-bottom}: 0;
+        #{-or-right}: 0;
+    }
+    }
+
