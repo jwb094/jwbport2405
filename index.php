@@ -29,48 +29,48 @@
             $colors = ["digital-green", "yellow-light", "blue-light", "turquoise-light", "green-light", "orange-light", "lilac-light"];
             $fName = "Lorem";
             $LName = "Domino";
-            $ContactDetails = "Email Address::JohnDoe@gmail.com/nPhone:09873426093\n";
-            $Socials = ["Twitter" => "", "Fb" => "", "IG" => ""];
-            $bio = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla vero harum minima atque a corporis et explicabo fugit ratione, ex unde quasi laborum molestiae, optio ipsa ipsam inventore voluptas veritatis!"
+            $ContactDetails = ["Email Address" =>"JohnDoe@gmail.com" ,"Phone"=>"09873426093"];
+            $Socials = ["Twitter" => "@johnDoe", "Fb" => "JDs909", "IG" => "@JDs909"];
+            $bio = "Bio 1 - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla vero harum minima atque a corporis et explicabo fugit ratione, ex unde quasi laborum molestiae, optio ipsa ipsam inventore voluptas veritatis!";
+            $bio2 = "Bio 2 - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla vero harum minima atque a corporis et explicabo fugit ratione, ex unde quasi laborum molestiae, optio ipsa ipsam inventore voluptas veritatis!";
+
             ?>
-            <section data-component-name="" class="">
-                <div class="l-container">
-                    <div class="row">
-                        <ul>
-                            <?php
-                            // Loop through colors and create an option for each color
-                            foreach ($colors as $color) {
-                                echo "<li> $color</li>";
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+        
             <section data-component-home class="" id="">
                 <div class="l-container">
                     <div class="home-grid">
-                        <div class="first_last_name">
-                            <p class=""></p>
+                        <div class="first_last_name | border-1 border-black border-solid">
+                            <p class=""><?= $fName ?> ><?= $LName ?></p>
                         </div>
-                        <div class="bio_part1">
-                            <p class=""></p>
+                        <div class="bio_part1 | border-1 border-black border-solid">
+                            <p class=""><?= $bio;?></p>
                         </div>
-                        <div class="img"><img class="" src="" alt=""></div>
-                        <div class="first_last_name_cta">
-                            <h1 class=""></h1>
-                            <button class=""></button>
+                        <div class="img | border-1 border-black border-solid">
+                            <img class="" src="https://placeholder.pics/svg/400x750" alt="">
                         </div>
-                        <div class="contact_details">
+                        <div class="first_last_name_cta | border-1 border-black border-solid">
+                        <h1><?= $fName ?> ><?= $LName ?></h1>
+                            <button class="">Click Here</button>
+                        </div>
+                        <div class="contact_details | border-1 border-black border-solid">
                             <ul>
-                                <li></li>
+                            <?php
+                                foreach ($ContactDetails as $key => $link) {
+                                   echo "<li>$link</li>";
+                                }
+                                ?>
+                            
                             </ul>
                             <ul>
-                                <li></li>
+                            <?php
+                                foreach ($Socials as $skey => $slink) {
+                                   echo "<li> $slink </li>";
+                                }
+                                ?>
                             </ul>
                         </div>
-                        <div class="bio_part2">
-                            <p class=""></p>
+                        <div class="bio_part2 | border-1 border-black border-solid">
+                        <p class=""><?= $bio2;?></p>
                         </div>
                     </div>
 
@@ -83,7 +83,7 @@
                 <div class="l-container">
                     <div class="l-row">
                         <div class="col-xs-12">
-                            <h3><?= $fName ?> ><?= $lName ?></h3>
+                            <h3><?= $fName ?> ><?= $LName ?></h3>
                         </div>
                     </div>
                     <div class="grid grid-cols-1 md.grid-cols-3">
@@ -136,6 +136,7 @@
                     <div class="img1"><img src="" alt=""></div>
                     <div class="bio_Desc">
                         <ul class="">
+            
                             <li class=""></li>
                             <li class=""></li>
                         </ul>
