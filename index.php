@@ -24,7 +24,7 @@
     </head>
 
     <body>
-        <main class="l-container">
+        <main >
             <?php
             $colors = ["digital-green", "yellow-light", "blue-light", "turquoise-light", "green-light", "orange-light", "lilac-light"];
             $fName = "Lorem";
@@ -36,9 +36,9 @@
 
             ?>
         
-            <section data-component-home class="" id="">
+            <section data-component-home class=" " id="">
                 <div class="l-container">
-                    <div class="home-grid">
+                    <div class="home-grid | py-80">
                         <div class="first_last_name | border-1 border-black border-solid">
                             <p class=""><?= $fName ?> ><?= $LName ?></p>
                         </div>
@@ -46,14 +46,16 @@
                             <p class=""><?= $bio;?></p>
                         </div>
                         <div class="img | border-1 border-black border-solid">
-                            <img class="" src="https://placeholder.pics/svg/400x750" alt="">
+                            <img class="w-100p h-100p md.object-cover" src="https://placeholder.pics/svg/400x750" alt="">
                         </div>
                         <div class="first_last_name_cta | border-1 border-black border-solid">
                         <h1><?= $fName ?> ><?= $LName ?></h1>
-                            <button class="">Click Here</button>
+                            <button class="px-16 py-24 | flex flex-row justify-content-between w-4-12">
+                                <p>Click Here</p>
+                            <span>icon</span></button>
                         </div>
                         <div class="contact_details | border-1 border-black border-solid">
-                            <ul>
+                            <ul class="flex flex-row justify-content-between">
                             <?php
                                 foreach ($ContactDetails as $key => $link) {
                                    echo "<li>$link</li>";
@@ -61,7 +63,7 @@
                                 ?>
                             
                             </ul>
-                            <ul>
+                            <ul class="flex flex-row justify-content-between mt-24">
                             <?php
                                 foreach ($Socials as $skey => $slink) {
                                    echo "<li> $slink </li>";
@@ -69,7 +71,7 @@
                                 ?>
                             </ul>
                         </div>
-                        <div class="bio_part2 | border-1 border-black border-solid">
+                        <div class="bio_part2 | border-1 border-black border-solid | flex md.align-items-end">
                         <p class=""><?= $bio2;?></p>
                         </div>
                     </div>
