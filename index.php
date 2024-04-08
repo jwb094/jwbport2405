@@ -84,28 +84,28 @@
             <section data-component-portfolio-1 class="" id="">
                 <div class="l-container">
                     <div class="l-row">
-                        <div class="col-xs-12">
-                            <h3><?= $fName ?> ><?= $LName ?></h3>
+                        <div class="col-xs-12 | py-48">
+                            <h3 class=""><?= $fName ?> ><?= $LName ?></h3>
                         </div>
                     </div>
-                    <div class="grid grid-cols-1 md.grid-cols-3">
-                        <div class="bio_Desc">
-                            <ul class="">
-                                <li class=""></li>
-                                <li class=""></li>
+                    <div class="portfolio-1-grid">
+                        <div class="bio_Desc pb-32">
+                            <ul class=" mt-12 | flex flex-row gap-12 text-left">
+                                <li class="">April ,2023</li>
+                                <li class="">X,X</li>
                             </ul>
-                            <h3 class=""></h3>
-                            <p class=""></p>
-                            <a href="" class=""></a>
+                            <h3 class="my-12">portfolio_project_1</h3>
+                            <p class="mb-32">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aliquam architecto incidunt maiores voluptas natus voluptatibus consequuntur, ipsam rem quam voluptate libero beatae expedita illum in culpa deleniti fuga earum!</p>
+                            <a href="" class="border-1 border-black border-solid px-24 py-16">View project here</a>
                         </div>
-                        <div class="img1">
-                            <img src="" alt="">
+                        <div class="portfolio_img1">
+                        <img class="w-100p h-100p md.object-cover" src="https://placeholder.pics/svg/400x375" alt="">
                         </div>
-                        <div class="img2">
-                            <img src="" alt="">
+                        <div class="portfolio_img2">
+                        <img class="w-100p h-100p md.object-cover" src="https://placeholder.pics/svg/400x750" alt="">
                         </div>
-                        <div class="img3">
-                            <img src="" alt="">
+                        <div class="portfolio_img3">
+                        <img class="w-100p h-100p md.object-cover" src="https://placeholder.pics/svg/400x750" alt="">
                         </div>
                     </div>
                 </div>
