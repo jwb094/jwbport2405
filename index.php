@@ -160,8 +160,7 @@
             ?>
         <section data-component-portfolio-3 class="" id="">
             <div class="portfolio-3-grid">
-                <div class="img1"><img src="" alt=""></div>
-                <div class="bio_Desc">
+                <div class="portoflio-3-bio">
                     <ul class="">
 
                         <li class=""></li>
@@ -171,7 +170,8 @@
                     <p class=""></p>
                     <a href="" class=""></a>
                 </div>
-                <div class="img2"><img src="" alt=""></div>
+                <div class="portoflio-3-img-1"><img src="" alt=""></div>
+                <div class="portoflio-3-img-2"><img src="" alt=""></div>
             </div>
         </section>
 
