@@ -36,38 +36,37 @@
 
         ?>
 
-        <section data-component-home class=" " id="">
+        <section data-component-home class=" bg-warm-gray-100" id="">
             <div class="l-container">
                 <div class="home-grid | py-80">
-                    <div class="first_last_name | border-1 border-black border-solid">
-                        <p class="">
-                            <?= $fName ?> >
+                    <div class="first_last_name ">
+                        <p class="bold text-md | ">
+                            <?= $fName ?> 
                             <?= $LName ?>
                         </p>
                     </div>
-                    <div class="bio_part1 | border-1 border-black border-solid">
+                    <div class="bio_part1 ">
                         <p class="">
                             <?= $bio; ?>
                         </p>
                     </div>
-                    <div class="img | border-1 border-black border-solid">
+                    <div class="img ">
                         <img class="w-100p h-100p md.object-cover" src="https://placeholder.pics/svg/400x750" alt="">
                     </div>
-                    <div class="first_last_name_cta | border-1 border-black border-solid | md.justify-content-center md.flex md.flex-col md.align-items-center">
-                        <div class="md.w-100p">
-                            <h1>
-                            <?= $fName ?> >
-                            <?= $LName ?>
+                    <div class="first_last_name_cta |  md.justify-content-center md.flex md.flex-col md.align-items-center">
+                        <div class="md.w-100p ">
+                            <h1 class="bold | text-8xl">
+                                <?= $fName ?> <?= $LName ?>
                             </h1>
-                            <button class="px-16 py-24 | flex flex-row justify-content-between w-4-12">
+                            <a href="#portfolio1" class="px-16 py-24 | flex flex-row justify-content-between w-6-12 md.w-3-12 | color-white bg-black radius-xl">
                                 <p>Click Here</p>
                                 <span>icon</span>
-                            </button>
+                            </a>
                         </div>
                     </div>
-                    <div class="contact_details | border-1 border-black border-solid">
+                    <div class="contact_details ">
                         <div class="flex flex-col justify-content-end mt-auto h-100p ">
-                            <ul class="flex flex-row justify-content-between">
+                            <ul class="flex flex-row justify-content-between | md.mx-12">
                                 <?php
                                 foreach ($ContactDetails as $key => $link) {
                                     echo "<li>$link</li>";
@@ -75,7 +74,7 @@
                                 ?>
     
                             </ul>
-                            <ul class="flex flex-row justify-content-between mt-24">
+                            <ul class="flex flex-row justify-content-between mt-24 md.mx-12">
                                 <?php
                                 foreach ($Socials as $skey => $slink) {
                                     echo "<li> $slink </li>";
@@ -84,7 +83,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="bio_part2 | border-1 border-black border-solid | flex md.align-items-end">
+                    <div class="bio_part2 | flex md.align-items-end">
                         <p class="">
                             <?= $bio2; ?>
                         </p>
@@ -96,7 +95,7 @@
         <?php
         $portfolio_project_1_bio = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla vero harum minima atque a corporis et explicabo fugit ratione, ex unde quasi laborum molestiae, optio ipsa ipsam inventore voluptas veritatis!"
             ?>
-        <section data-component-portfolio-1 class="" id="">
+        <section data-component-portfolio-1 class="bg-black color-white py-96" id="portfolio1">
             <div class="l-container">
                 <div class="l-row">
                     <div class="col-xs-12 | py-48">
@@ -133,7 +132,7 @@
         <?php
         $portfolio_project_2_bio = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla vero harum minima atque a corporis et explicabo fugit ratione, ex unde quasi laborum molestiae, optio ipsa ipsam inventore voluptas veritatis!"
             ?>
-        <section data-component-portfolio-2 class="my-24" id="">
+        <section data-component-portfolio-2 class="bg-black color-white py-96" id="portfolio2">
             <div class="l-container">
                 <div class="portfolio-2-grid">
                     <div class="portfolio-2-img-1">
@@ -162,7 +161,7 @@
         <?php
         $portfolio_project_3_bio = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla vero harum minima atque a corporis et explicabo fugit ratione, ex unde quasi laborum molestiae, optio ipsa ipsam inventore voluptas veritatis!"
             ?>
-        <section data-component-portfolio-3 class="" id="">
+        <section data-component-portfolio-3 class="bg-black color-white py-96" id=portfolio3">
         <div class="l-container">
             <div class="portfolio-3-grid">
                 <div class="portfolio-3-bio">
@@ -187,7 +186,7 @@
 
     </main>
     <!-- Add your site or application content here -->
-    <footer class>
+    <footer class="bg-black color-white">
         <div class="l-container">
             <div class="row">
                 <div class="col-xs-12 col-md-12">

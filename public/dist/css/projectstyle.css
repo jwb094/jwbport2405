@@ -48387,7 +48387,8 @@ select {
 }
 @media screen and (min-width: 768px) {
   .portfolio-2-grid {
-    grid: "portfolio-2-img-1 portfolio-2-img-1 portoflio-2-bio" 1fr "portfolio-2-img-2 portfolio-2-img-3 portfolio-2-img-4" 1fr ". . .";
+    display: grid;
+    grid: "portfolio-2-img-1  portfolio-2-img-1  biportoflio-2-bioo" 1fr "portfolio-2-img-2 portfolio-2-img-3 portfolio-2-img-4" 1fr/1fr 1fr 1fr;
     gap: 8px;
   }
   .portfolio-2-grid .portfolio-2-img-1 {
