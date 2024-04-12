@@ -48331,11 +48331,11 @@ select {
   order: 1;
 }
 .portfolio-1-grid .portfolio_img2 {
-  grid-area: span 1/span 3/span 1/span 3;
+  grid-area: span 1/span 3/span 1/span 1;
   order: 2;
 }
 .portfolio-1-grid .portfolio_img3 {
-  grid-area: span 1/span 3/span 1/span 3;
+  grid-area: span 1/span 3/span 1/span 1;
   order: 3;
 }
 .portfolio-1-grid .portfolio_img1 {
@@ -48387,7 +48387,7 @@ select {
 }
 @media screen and (min-width: 768px) {
   .portfolio-2-grid {
-    grid: "portfolio-2-img-1 portfolio-2-img-1 portoflio-2-bio" 1fr "portfolio-2-img-2 portfolio-2-img-3 portfolio-2-img-4" 1fr ". . ." 1fr/1fr 1fr 1fr;
+    grid: "portfolio-2-img-1 portfolio-2-img-1 portoflio-2-bio" 1fr "portfolio-2-img-2 portfolio-2-img-3 portfolio-2-img-4" 1fr ". . .";
     gap: 8px;
   }
   .portfolio-2-grid .portfolio-2-img-1 {
@@ -48413,5 +48413,46 @@ select {
     grid-area: portfolio-2-img-4;
     grid-area: span 1/span 1/span 1/span 1;
     order: 5;
+  }
+}
+
+.portfolio-3-grid {
+  display: grid;
+  grid: "portfolio-3-bio" 1fr "portfolio-3-img-1" 1fr "portfolio-3-img-2" 1fr/1fr;
+  gap: 8px;
+}
+.portfolio-3-grid .portfolio-3-bio {
+  grid-area: portfolio-3-bio;
+  grid-area: span 1/span 3/span 1/span 3;
+  order: 1;
+}
+.portfolio-3-grid .portfolio-3-img-1 {
+  grid-area: portfolio-3-img-1;
+  grid-area: span 1/span 3/span 1/span 3;
+  order: 2;
+}
+.portfolio-3-grid .portfolio-3-img-2 {
+  grid-area: portfolio-3-img-2;
+  grid-area: span 1/span 3/span 1/span 3;
+  order: 3;
+}
+@media screen and (min-width: 768px) {
+  .portfolio-3-grid {
+    grid: "portoflio-3-bio portoflio-3-img-2 portoflio-3-img-2" 1fr "portoflio-3-img-1 portoflio-3-img-2 portoflio-3-img-2" 1fr ". . ." 1fr/1fr 1fr 1fr;
+  }
+  .portfolio-3-grid .portfolio-3-bio {
+    grid-area: portfolio-3-bio;
+    grid-area: span 1/span 1/span 1/span 1;
+    order: 1;
+  }
+  .portfolio-3-grid .portfolio-3-img-1 {
+    grid-area: portfolio-3-img-1;
+    grid-area: span 1/span 1/span 1/span 1;
+    order: 3;
+  }
+  .portfolio-3-grid .portfolio-3-img-2 {
+    grid-area: portfolio-3-img-2;
+    grid-area: span 2/span 2/span 2/span 2;
+    order: 2;
   }
 }

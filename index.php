@@ -53,32 +53,36 @@
                     <div class="img | border-1 border-black border-solid">
                         <img class="w-100p h-100p md.object-cover" src="https://placeholder.pics/svg/400x750" alt="">
                     </div>
-                    <div class="first_last_name_cta | border-1 border-black border-solid">
-                        <h1>
+                    <div class="first_last_name_cta | border-1 border-black border-solid | md.justify-content-center md.flex md.flex-col md.align-items-center">
+                        <div class="md.w-100p">
+                            <h1>
                             <?= $fName ?> >
                             <?= $LName ?>
-                        </h1>
-                        <button class="px-16 py-24 | flex flex-row justify-content-between w-4-12">
-                            <p>Click Here</p>
-                            <span>icon</span>
-                        </button>
+                            </h1>
+                            <button class="px-16 py-24 | flex flex-row justify-content-between w-4-12">
+                                <p>Click Here</p>
+                                <span>icon</span>
+                            </button>
+                        </div>
                     </div>
                     <div class="contact_details | border-1 border-black border-solid">
-                        <ul class="flex flex-row justify-content-between">
-                            <?php
-                            foreach ($ContactDetails as $key => $link) {
-                                echo "<li>$link</li>";
-                            }
-                            ?>
-
-                        </ul>
-                        <ul class="flex flex-row justify-content-between mt-24">
-                            <?php
-                            foreach ($Socials as $skey => $slink) {
-                                echo "<li> $slink </li>";
-                            }
-                            ?>
-                        </ul>
+                        <div class="flex flex-col justify-content-end mt-auto h-100p ">
+                            <ul class="flex flex-row justify-content-between">
+                                <?php
+                                foreach ($ContactDetails as $key => $link) {
+                                    echo "<li>$link</li>";
+                                }
+                                ?>
+    
+                            </ul>
+                            <ul class="flex flex-row justify-content-between mt-24">
+                                <?php
+                                foreach ($Socials as $skey => $slink) {
+                                    echo "<li> $slink </li>";
+                                }
+                                ?>
+                            </ul>
+                        </div>
                     </div>
                     <div class="bio_part2 | border-1 border-black border-solid | flex md.align-items-end">
                         <p class="">
@@ -159,19 +163,25 @@
         $portfolio_project_3_bio = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla vero harum minima atque a corporis et explicabo fugit ratione, ex unde quasi laborum molestiae, optio ipsa ipsam inventore voluptas veritatis!"
             ?>
         <section data-component-portfolio-3 class="" id="">
+        <div class="l-container">
             <div class="portfolio-3-grid">
-                <div class="portoflio-3-bio">
-                    <ul class="">
-
-                        <li class=""></li>
-                        <li class=""></li>
-                    </ul>
-                    <h3 class=""></h3>
-                    <p class=""></p>
-                    <a href="" class=""></a>
+                <div class="portfolio-3-bio">
+                <ul class=" mt-12 | flex flex-row gap-12 text-left">
+                            <li class="mt-12 ">April ,2023</li>
+                            <li class="mt-12 ">X,X</li>
+                        </ul>
+                        <h3 class="my-16">portfolio_project_2</h3>
+                        <p class="mb-36"><?=$portfolio_project_3_bio?></p>
+                        <a href="" class="border-1 border-black border-solid radius-xl px-24 py-16">View project here</a>
                 </div>
-                <div class="portoflio-3-img-1"><img src="" alt=""></div>
-                <div class="portoflio-3-img-2"><img src="" alt=""></div>
+                <div class="portfolio-3-img-1"> <img class="w-100p h-100p md.object-cover"
+                            src="https://placeholder.pics/svg/435x301" alt="">
+                </div>
+                <div class="portfolio-3-img-2"> <img class="w-100p h-100p md.object-cover"
+                            src="https://placeholder.pics/svg/927x634" alt="">
+                </div>
+
+            </div>
             </div>
         </section>
 
