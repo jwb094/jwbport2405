@@ -36,7 +36,7 @@
 
         ?>
 
-        <section data-component-home class=" bg-warm-gray-100" id="">
+        <section data-component-home class=" bg-warm-gray-300" id="">
             <div class="l-container">
                 <div class="home-grid | py-80">
                     <div class="first_last_name ">
@@ -51,7 +51,7 @@
                         </p>
                     </div>
                     <div class="img ">
-                        <img class="w-100p h-100p md.object-cover" src="https://placeholder.pics/svg/400x750" alt="">
+                        <img class="w-100p h-100p object-cover" src="https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=2189&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
                     </div>
                     <div class="first_last_name_cta |  md.justify-content-center md.flex md.flex-col md.align-items-center">
                         <div class="md.w-100p ">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <div class="portfolio-1-grid">
-                    <div class="bio_Desc pb-32">
+                    <div class="bio_Desc pb-32 md.pr-32">
                         <ul class=" mt-12 | flex flex-row gap-12 text-left">
                             <li class="">April ,2023</li>
                             <li class="">X,X</li>
@@ -115,7 +115,7 @@
                         <p class="mb-32">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aliquam architecto
                             incidunt maiores voluptas natus voluptatibus consequuntur, ipsam rem quam voluptate libero
                             beatae expedita illum in culpa deleniti fuga earum!</p>
-                        <a href="" class="border-1 border-black border-solid px-24 py-16">View project here</a>
+                        <a href="" class="border-1 border-black border-solid px-24 py-16 bg-warm-gray-100 color-black radius-full">View project here</a>
                     </div>
                     <div class="portfolio_img1">
                         <img class="w-100p h-100p md.object-cover" src="https://placeholder.pics/svg/400x375" alt="">
@@ -147,7 +147,7 @@
                         <p class="mb-36">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aliquam architecto
                             incidunt maiores voluptas natus voluptatibus consequuntur, ipsam rem quam voluptate libero
                             beatae expedita illum in culpa deleniti fuga earum!</p>
-                        <a href="" class="border-1 border-black border-solid radius-xl px-24 py-16">View project here</a>
+                        <a href="" class="border-1 border-black border-solid radius-xl px-24 py-16 bg-warm-gray-100 color-black radius-full">View project here</a>
                     </div>
                     <div class="portfolio-2-img-2"> <img class="w-100p h-100p md.object-cover"
                             src="https://placeholder.pics/svg/453x359" alt=""></div>
@@ -171,7 +171,7 @@
                         </ul>
                         <h3 class="my-16">portfolio_project_2</h3>
                         <p class="mb-36"><?=$portfolio_project_3_bio?></p>
-                        <a href="" class="border-1 border-black border-solid radius-xl px-24 py-16">View project here</a>
+                        <a href="" class="border-1 border-black border-solid radius-xl px-24 py-16 bg-warm-gray-100 color-black radius-full">View project here</a>
                 </div>
                 <div class="portfolio-3-img-1"> <img class="w-100p h-100p md.object-cover"
                             src="https://placeholder.pics/svg/435x301" alt="">
@@ -190,7 +190,7 @@
         <div class="l-container">
             <div class="row">
                 <div class="col-xs-12 col-md-12">
-                    <ul class="flex flex-row justify-content-between">
+                    <ul class="flex flex-row justify-content-between |  border-t-1 border-white border-solid | py-24 md.py-56">
                         <li>
                             <?= $fName ?>
                             <?= $LName ?>
