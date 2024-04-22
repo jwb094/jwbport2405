@@ -115,16 +115,16 @@
                         <p class="mb-32">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aliquam architecto
                             incidunt maiores voluptas natus voluptatibus consequuntur, ipsam rem quam voluptate libero
                             beatae expedita illum in culpa deleniti fuga earum!</p>
-                        <a href="" class="border-1 border-black border-solid px-24 py-16 bg-warm-gray-100 color-black radius-full">View project here</a>
+                        <a href="" class="border-1 border-black border-solid px-24 py-16 bg-warm-gray-300 color-black radius-full">View project here</a>
                     </div>
                     <div class="portfolio_img1">
-                        <img class="w-100p h-100p md.object-cover" src="https://placeholder.pics/svg/400x375" alt="">
+                        <img class="w-100p h-100p object-cover radius-xl" src="https://placeholder.pics/svg/400x375" alt="">
                     </div>
                     <div class="portfolio_img2">
-                        <img class="w-100p h-100p md.object-cover" src="https://placeholder.pics/svg/400x750" alt="">
+                        <img class="w-100p h-100p object-cover radius-xl" src="https://placeholder.pics/svg/400x750" alt="">
                     </div>
                     <div class="portfolio_img3">
-                        <img class="w-100p h-100p md.object-cover" src="https://placeholder.pics/svg/400x750" alt="">
+                        <img class="w-100p h-100p object-cover radius-xl" src="https://placeholder.pics/svg/400x750" alt="">
                     </div>
                 </div>
             </div>
@@ -147,13 +147,13 @@
                         <p class="mb-36">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aliquam architecto
                             incidunt maiores voluptas natus voluptatibus consequuntur, ipsam rem quam voluptate libero
                             beatae expedita illum in culpa deleniti fuga earum!</p>
-                        <a href="" class="border-1 border-black border-solid radius-xl px-24 py-16 bg-warm-gray-100 color-black radius-full">View project here</a>
+                        <a href="" class="border-1 border-black border-solid radius-xl px-24 py-16 bg-warm-gray-300 color-black radius-full">View project here</a>
                     </div>
-                    <div class="portfolio-2-img-2"> <img class="w-100p h-100p md.object-cover"
+                    <div class="portfolio-2-img-2"> <img class="w-100p h-100p object-cover radius-xl"
                             src="https://placeholder.pics/svg/453x359" alt=""></div>
-                    <div class="portfolio-2-img-3"> <img class="w-100p h-100p md.object-cover"
+                    <div class="portfolio-2-img-3"> <img class="w-100p h-100p object-cover radius-xl"
                             src="https://placeholder.pics/svg/453x359" alt=""></div>
-                    <div class="portfolio-2-img-4"> <img class="w-100p h-100p md.object-cover"
+                    <div class="portfolio-2-img-4"> <img class="w-100p h-100p object-cover radius-xl"
                             src="https://placeholder.pics/svg/453x359" alt=""></div>
                 </div>
             </div>
@@ -171,12 +171,12 @@
                         </ul>
                         <h3 class="my-16">portfolio_project_2</h3>
                         <p class="mb-36"><?=$portfolio_project_3_bio?></p>
-                        <a href="" class="border-1 border-black border-solid radius-xl px-24 py-16 bg-warm-gray-100 color-black radius-full">View project here</a>
+                        <a href="" class="border-1 border-black border-solid radius-xl px-24 py-16 bg-warm-gray-300 color-black radius-full">View project here</a>
                 </div>
-                <div class="portfolio-3-img-1"> <img class="w-100p h-100p md.object-cover"
+                <div class="portfolio-3-img-1"> <img class="w-100p h-100p object-cover radius-xl"
                             src="https://placeholder.pics/svg/435x301" alt="">
                 </div>
-                <div class="portfolio-3-img-2"> <img class="w-100p h-100p md.object-cover"
+                <div class="portfolio-3-img-2"> <img class="w-100p h-100p object-cover radius-xl"
                             src="https://placeholder.pics/svg/927x634" alt="">
                 </div>
 
